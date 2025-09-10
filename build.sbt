@@ -7,7 +7,7 @@ lazy val root = (project in file("."))
     name := "scala3gpt-llm"
   )
 
-libraryDependencies += "io.github.mullerhai" % "storch_core_3" % "0.4.6-1.15.2"
+libraryDependencies += "io.github.mullerhai" % "storch_core_3" % "0.5.1-1.15.2"
 
 
 ThisBuild / assemblyMergeStrategy := {
